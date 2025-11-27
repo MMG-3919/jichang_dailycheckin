@@ -1,0 +1,8 @@
+name: base  # 环境名（可自定义）
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10  # 对应你之前安装的Python版本
+  - pandas  # 示例依赖，替换成你需要的包
+  - numpy
