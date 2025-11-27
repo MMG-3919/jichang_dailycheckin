@@ -1,7 +1,7 @@
-name: base  # 环境名
+name: base
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10  # 匹配之前安装的Python版本
+  - python=3.10
   - requests>=2.23.0  # 对应requirements.txt里的依赖
